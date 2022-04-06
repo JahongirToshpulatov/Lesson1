@@ -2,7 +2,7 @@ package Integer;
 
 import java.util.Scanner;
 
-public class Integer24 {
+public class Integer25 {
     public static void main(String[] args) {
         Scanner ok=new Scanner(System.in);
         System.out.print("Enter seconds = ");
