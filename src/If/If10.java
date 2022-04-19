@@ -2,18 +2,22 @@ package If;
 
 import java.util.Scanner;
 
-public class If9 {
+public class If10 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter A = ");
         int number = scanner.nextInt();
         System.out.print("Enter B = ");
         int number2 = scanner.nextInt();
-        if (number > number2) {
-            System.out.println("A = " + number2);
-            System.out.print("B = " + number);
-        } else {System.out.println("A = " + number);
-        System.out.print("B = " + number2);}
+
+        int n=number + number2;
+        if (number != number2) {
+            System.out.println("A + B = " + n);
+            System.out.println("A + B = " + n);
+        } else {
+            System.out.println("A = " + 0);
+            System.out.println("B = " + 0);
+        }
 
     }
 }

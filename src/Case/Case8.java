@@ -4,18 +4,42 @@ package Case;
 
 import java.util.Scanner;
 
-public class Case7 {
+public class Case8 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        System.out.print("Enter amal = ");
-        switch (scanner.nextInt()){
-            case 1: System.out.print(a/10);break;
-            case 2: System.out.print(a*100);break;
-            case 3: System.out.print(a);break;
-            case 4: System.out.print(a/1000);break;
-            case 5: System.out.print(a/100);break;
+        System.out.print("Enter day = ");
+        int day = scanner.nextInt();
+        System.out.print("Enter Month = ");
+        int month=scanner.nextInt();
+
+        switch (month){
+            case 1: switch ((day+29)/31) {
+                case 0:{
+                    day=31;
+                    month=12;
+                    break;
+                }
+                case 1: {
+                    day--;
+                    break;
+                }
+
+                case 2:{
+                    switch ((day+26)/28){
+                        case 0:{
+                            day=31;
+                            month=1;
+                            break;
+                        }
+                        case 1: {
+                            day--;
+                            break;
+                        }
+                    }
+                }
+            }break;
         }
+
 
     }
 

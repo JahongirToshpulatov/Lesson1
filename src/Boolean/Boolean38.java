@@ -2,7 +2,7 @@ package Boolean;
 
 import java.util.Scanner;
 
-public class Boolean37 {
+public class Boolean38 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("X1 = ");

@@ -4,7 +4,7 @@ package Case;
 
 import java.util.Scanner;
 
-public class Case16 {
+public class Case17 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -70,7 +70,7 @@ public class Case16 {
                 System.out.print("Toqqiz  ");
                 break;
 
-        }
+        } System.out.println("Ta masala");
 
     }
 

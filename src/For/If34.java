@@ -2,15 +2,15 @@ package For;
 
 import java.util.Scanner;
 
-public class If33 {
+public class If34 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("N = ");
         int n = sc.nextInt();
-        int sum = 0;
-        int a = 1, b = 1;
+        double sum = 0;
+        double a = 1, b = 2;
         for (int i = 0; i < n; i++) {
-            sum = a + b;
+            sum = (a + 2 * b) / 3;
             System.out.println("  " + sum);
             a = b;
             b = sum;

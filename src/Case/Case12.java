@@ -2,26 +2,19 @@
 
 package Case;
 
+import java.util.Date;
 import java.util.Scanner;
 
-public class Case11 {
+public class Case12 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter kochish = ");
-        switch (scanner.nextInt()){
-            case 1:System.out.println("Shimol");break;
-            case 2:System.out.println("Janub");break;
-            case 3:System.out.println("Sharq");break;
-            case 4:System.out.println("G'arb");break;
+        int r=5;
+        switch (scanner.nextInt()) {
+            case 1:System.out.println("R = "+r);break;
+            case 2:System.out.println("R = "+2*r);break;
+            case 3:System.out.println("R = "+2*Math.PI*r);break;
+            case 4:System.out.println("R = "+3.14*Math.pow(r,2));break;
         }
-        System.out.print("Enter kamanda = ");
-        switch (scanner.nextInt()){
-            case 0:System.out.println("right ");break;
-            case 1:System.out.println("left ");break;
-            case 2:System.out.println("Burulish 180 ");break;
-        }
-
-
 
 
     }

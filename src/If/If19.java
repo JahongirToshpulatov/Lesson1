@@ -2,7 +2,7 @@ package If;
 
 import java.util.Scanner;
 
-public class If18 {
+public class If19 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter A = ");
@@ -12,12 +12,14 @@ public class If18 {
         System.out.print("Enter C = ");
         int c = scanner.nextInt();
 
-        if (a==b){
-            System.out.println(3);
-        }else if (b==c){
-            System.out.println(1);
-        }else if (c==a) System.out.println(2);
-        else System.out.println("Error ");
+        int d = Math.abs(Math.abs(b) - Math.abs(a)), z = Math.abs(Math.abs(c) - Math.abs(a));
+        if (d > z) {
+            System.out.println(c);
+            System.out.println(z);
+        } else {
+            System.out.println(b);
+            System.out.println(d);
+        }
 
 
     }

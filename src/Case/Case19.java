@@ -4,7 +4,7 @@ package Case;
 
 import java.util.Scanner;
 
-public class Case18 {
+public class Case19 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

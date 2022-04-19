@@ -2,7 +2,7 @@ package For;
 
 import java.util.Scanner;
 
-public class If17 {
+public class If18 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("N = ");
@@ -10,10 +10,12 @@ public class If17 {
         System.out.print("A = ");
         int a = sc.nextInt();
         int sum = 0;
+        double p=0;
         for (int i = 0; i < n; i++) {
-            if (n < Math.pow(a, i)) break;
-            System.out.print("  " + Math.pow(a, i));
-            sum += Math.pow(a, i);
+            p=Math.pow(a,i)*Math.pow(-1,i);
+            if (n<p) break;
+            sum+=p;
+            System.out.print("  "+p+"  ");
 
         }
         System.out.print("Sum =   " + sum);

@@ -2,19 +2,19 @@ package While;
 
 import java.util.Scanner;
 
-public class While12 {
+public class While13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter A = ");
         int n = sc.nextInt();
-        int k = 1, count=0, sum=0;
+        double k = 1, count=0, sum=0;
         while (sum <= n) {
             k+=1;
-            sum+=+k;
+            sum+=1/k;
 
         }
         System.out.println("Sum = "+sum);
-        System.out.println(k-1);
+        System.out.println("K = "+k);
 
     }
 }

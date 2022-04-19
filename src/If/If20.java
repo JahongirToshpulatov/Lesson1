@@ -2,7 +2,7 @@ package If;
 
 import java.util.Scanner;
 
-public class If19 {
+public class If20 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter A = ");

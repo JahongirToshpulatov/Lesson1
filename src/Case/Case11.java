@@ -4,7 +4,7 @@ package Case;
 
 import java.util.Scanner;
 
-public class Case10 {
+public class Case11 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter kochish = ");
@@ -16,9 +16,9 @@ public class Case10 {
         }
         System.out.print("Enter kamanda = ");
         switch (scanner.nextInt()){
-            case 0:System.out.println("Keep going ");break;
+            case 0:System.out.println("right ");break;
             case 1:System.out.println("left ");break;
-            case 2:System.out.println("right ");break;
+            case 2:System.out.println("Burulish 180 ");break;
         }
 
 

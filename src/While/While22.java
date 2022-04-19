@@ -2,21 +2,22 @@ package While;
 
 import java.util.Scanner;
 
-public class While21 {
+public class While22 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter N = ");
-        int sum=0, count=0, d=0;
         int n=sc.nextInt();
-        while (n>=1){
-            d=n%10;
-            if (d%2==1){
+        int sum=0, count=0, d=1;
+        while (n>sum){
+            d+=1;
+            if (n%d==0){
                 count++;
-            }else
-            sum+=d;
-            n=n/10;
-        } if (count>=1) System.out.println("Yes");
-        else  System.out.println("No");
+            }else ;
+            sum++;
+
+        }
+        if (count>=2)System.out.println("Tub emas");
+        else System.out.println("Tub ");
 
     }
 }

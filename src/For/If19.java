@@ -2,23 +2,16 @@ package For;
 
 import java.util.Scanner;
 
-public class If18 {
+public class If19 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("N = ");
         int n = sc.nextInt();
-        System.out.print("A = ");
-        int a = sc.nextInt();
-        int sum = 0;
-        double p=0;
-        for (int i = 0; i < n; i++) {
-            p=Math.pow(a,i)*Math.pow(-1,i);
-            if (n<p) break;
-            sum+=p;
-            System.out.print("  "+p+"  ");
+        int fact=1;
+        for (int i = 1; i <=n ; i++) {
 
-        }
-        System.out.print("Sum =   " + sum);
+            fact*=i;
+        }System.out.print(fact);
 
 
     }

@@ -2,17 +2,17 @@ package While;
 
 import java.util.Scanner;
 
-public class While4 {
+public class While5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter A = ");
         int a = sc.nextInt();
-        while (a>3){
-            a=a-3;
+        int count = 0;
+        while (a >= 2) {
+            count++;
+            a = a / 2;
 
-            }if (a==3){
-            System.out.println("3 ning darajasi ");
-
-        }else System.out.print("3 ning darajasi emas");
+        }
+        System.out.print(count);
     }
 }

@@ -2,14 +2,17 @@ package For;
 
 import java.util.Scanner;
 
-public class If6 {
+public class If7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("1 kg necha pul  = ");
+        System.out.print("Enter number1  = ");
         int a = sc.nextInt();
-        for (double i = 1.1; i <= 2; i += 0.1) {
-            System.out.println("  " + i * a + "   $");
+        System.out.print("Enter number2 = ");
+        int b=sc.nextInt();
+        int sum=0;
+        for (double i = a; i < b; i ++) {
+            sum+=i;
 
-        }
+        } System.out.print(sum);
     }
 }

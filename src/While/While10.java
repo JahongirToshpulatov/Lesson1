@@ -2,7 +2,7 @@ package While;
 
 import java.util.Scanner;
 
-public class While9 {
+public class While10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter A = ");
@@ -12,7 +12,7 @@ public class While9 {
             count++;
             k *= 3;
         }
-        System.out.println(count+1);
+        System.out.println(count);
 
     }
 }

@@ -2,21 +2,18 @@ package For;
 
 import java.util.Scanner;
 
-public class If12 {
+public class If13 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("N  = ");
-        int a = sc.nextInt();
-        double x = 1;
-        double t = 1;
-        for (double i = 1; i < a; i++) {
-
-            t = t + 0.1;
-            x = x * t;
+        int n = sc.nextInt();
+        double t = 0;
+        for (double i = 1; i < n; i++) {
+            t += (1 + i / 10) * Math.pow(-1, i + 1);
 
 
         }
-        System.out.print(Math.abs(x));
+        System.out.println(t);
 
 
     }

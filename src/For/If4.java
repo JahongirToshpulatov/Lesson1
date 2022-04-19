@@ -2,15 +2,13 @@ package For;
 
 import java.util.Scanner;
 
-public class If3 {
+public class If4 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter number1  = ");
+        System.out.print("1 kg necha pul  = ");
         int a=sc.nextInt();
-        System.out.print("Enter number2 = ");
-        int b=sc.nextInt();
-        for (int i = b; i >=a ; i--) {
-            System.out.print("  "+i);
+        for (int i = 1; i <=10 ; i++) {
+            System.out.print("  "+i*a+" Som");
 
         }
     }

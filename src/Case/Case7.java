@@ -1,9 +1,10 @@
 
+
 package Case;
 
 import java.util.Scanner;
 
-public class Case6 {
+public class Case7 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();

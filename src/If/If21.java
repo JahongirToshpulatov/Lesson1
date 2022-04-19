@@ -2,25 +2,19 @@ package If;
 
 import java.util.Scanner;
 
-public class If20 {
+public class If21 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter A = ");
-        int a = scanner.nextInt();
-        System.out.print("Enter B = ");
-        int b = scanner.nextInt();
-        System.out.print("Enter C = ");
-        int c = scanner.nextInt();
+        System.out.print("Enter X1 = ");
+        int x = scanner.nextInt();
+        System.out.print("Enter Y1 = ");
+        int y = scanner.nextInt();
+        if (x == 0 && y == 0) {
+            System.out.println(0);
+        } else if (y == 0) System.out.println(1);
+        else if (x==0)System.out.println(2);
 
-        int d = Math.abs(Math.abs(b) - Math.abs(a)), z = Math.abs(Math.abs(c) - Math.abs(a));
-        if (d > z) {
-            System.out.println(c);
-            System.out.println(z);
-        } else {
-            System.out.println(b);
-            System.out.println(d);
-        }
-
+        else System.out.println(3);
 
     }
 }

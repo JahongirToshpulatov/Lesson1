@@ -2,7 +2,7 @@ package For;
 
 import java.util.Scanner;
 
-public class If29 {
+public class If30 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("A = ");

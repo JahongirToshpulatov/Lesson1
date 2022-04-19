@@ -2,21 +2,21 @@ package For;
 
 import java.util.Scanner;
 
-public class If31 {
+public class If32 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("N = ");
         int n = sc.nextInt();
-        double sum = 1;
-        double a = 0;
-        for (int i = 0; i < n; i++) {
 
-            sum += 1 / sum;
-            a = sum;
-
-
+        double sum=0;
+        double d = 1;
+        for (int i = 1; i <= n; i++) {
+            sum = (d + 1) / i;
+            d = sum;
+            sum+=sum;
         }
-        System.out.println(sum);
+
+        System.out.print("Sum = " + sum + "  ");
 
     }
 }

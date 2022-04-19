@@ -2,7 +2,7 @@ package If;
 
 import java.util.Scanner;
 
-public class If15 {
+public class If16 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter A = ");
@@ -12,14 +12,17 @@ public class If15 {
         System.out.print("Enter C = ");
         int c = scanner.nextInt();
 
-        if (a>b&&b>c){
-            System.out.println(a+b);
-        }else if (a>b&&b<c){
-            System.out.println(a+c);
-        }else if (b>a&&a>c)System.out.println(b+a);
-        else if (b>a&&a<c)System.out.println(b+c);
-        else if (c>b&&b>a)System.out.println(c+b);
-        else if (c>b&&b<a)System.out.println(c+a);
+        if (a < b && b < c) {
+
+            System.out.println(2 * a);
+            System.out.println(2 * b);
+            System.out.println(2 * c);
+        } else {
+            System.out.println(-a);
+            System.out.println(-b);
+            System.out.println(-c);
+
+        }
 
     }
 }

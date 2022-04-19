@@ -2,11 +2,16 @@ package While;
 
 import java.util.Scanner;
 
-public class While6 {
+public class While7 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter A = ");
-        int a = sc.nextInt();
+        int n = sc.nextInt();
+        int k = 0;
+        while (k * k < n) {
+            k += 1;
+        }
+        System.out.println(k);
 
     }
 }

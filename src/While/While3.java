@@ -2,7 +2,7 @@ package While;
 
 import java.util.Scanner;
 
-public class While2 {
+public class While3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter A = ");
@@ -14,6 +14,7 @@ public class While2 {
             a = a - b;
             count++;
         }
-        System.out.println(count);
+        System.out.println("count = "+count );
+        System.out.println("Qoldiq = "+a);
     }
 }
